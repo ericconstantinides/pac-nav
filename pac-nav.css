@@ -33,10 +33,12 @@ li {
 	margin-bottom: 0;
 }
 .site-logo__wrpr {
+	box-sizing: border-box;
 	width: 60px;
 	min-width: 60px;
 	height: 60px;
-	padding-right: 1em;
+	padding: 0 1em;
+	border: 10px solid #ccc;
 	outline: 1px dashed red;
 }
 
